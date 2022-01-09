@@ -15,15 +15,23 @@
 table {
   width: 700px;
   border-collapse: collapse;
+  background-color: rgb(239, 243, 243);
+  
 }
+
+td::first-letter{
+    color: brown;
+}
+
+
     </style>
 </head>
 <body>
-    <img src="images/cart.png" width="100px" height="100px">
-    <h1>Shopping Cart</h1>
-    <h3>The online shopping store</h3>
+    <img class="logo" src="images/cart.png" width="100px" height="100px">
+    <h1 class="h1">Shopping Cart</h1>
+    <h3 class="h3">The online shopping store</h3>
 
-    <hr>
+    <hr class="hr">
 
     <ul>
         <li><a href="file:///E:/Sample_projects/Library_System/IWT/src/index.html">Home</a></li>
@@ -32,28 +40,28 @@ table {
         <li><a href="file:///E:/Sample_projects/Library_System/IWT/src/index.html">About</a></li>
     </ul>
 
-    <table  >
+    <table >
         <tr>
             <th>Item Name</th>
             <th>Description</th>
         </tr>
 
         <tr>
-            <td>3 books of harry potter</td>
-            <td><ul><li>Harry Potter and the Sorcerer's Stone</li>
+            <td class="a" >3 books of harry potter</td>
+            <td class="b" ><ul><li style="color: brown;" >Harry Potter and the Sorcerer's Stone</li>
                 <li>Harry Potter and the Chamber of Secrets</li>
                 <li>Harry Potter and the Prisoner of Azkaban</li></ul></td>
         </tr>
         <tr>
-            <td> 4 books of harry potter</td>
-            <td><ul><li>Harry Potter and goblert of fire</li>
+            <td class="a"> 4 books of harry potter</td>
+            <td class="b"><ul><li>Harry Potter and goblert of fire</li>
                 <li>Harry Potter and the order of phinex</li>
                 <li>Harry Potter and the Harf blood pricess</li></ul></td>
         </tr>
 
         <tr>
-            <td>Films of harry potter</td>
-            <td><ul><li>Harry Potter and the Sorcerer's Stone</li>
+            <td class="a">Films of harry potter</td>
+            <td class="b"><ul><li>Harry Potter and the Sorcerer's Stone</li>
                 <li>Harry Potter and the Chamber of Secrets</li>
                 <li>Harry Potter and the Prisoner of Azkaban</li></ul></td>
         </tr>
