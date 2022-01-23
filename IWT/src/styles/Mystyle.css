@@ -35,3 +35,11 @@ body {
   .td::first-line{
       color: red;
   }
+
+
+  .menu{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      background-color: #333;
+  }
